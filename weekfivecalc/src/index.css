@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 
 :root {
-  --primary: #d81e5b;
+  --primary: blue;
   --secondary: #8c38ff;
   --dark: #131a26;
   --light: #eee;
@@ -67,6 +67,7 @@ button:hover {
 
 .operators button {
   flex: 1 1 0%;
+  min-width: 20%;
   background-color: var(--primary);
   font-weight: 700;
 }

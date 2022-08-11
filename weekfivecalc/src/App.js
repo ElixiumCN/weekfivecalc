@@ -44,7 +44,7 @@ function App() {
   }
 
   const deleteLast = () => {
-    if (calc == '') {
+    if (calc === '') {
       return;
     }
 
@@ -80,8 +80,6 @@ function App() {
 
           <button onClick={calculate}>=</button>
         </div>
-
-
         </div>
     </div>
 
